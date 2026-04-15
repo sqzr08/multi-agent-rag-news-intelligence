@@ -153,5 +153,3 @@ InsightsOutput      — enforced LLM output (todays_themes, emerging_topics, key
 
 `Sentiment` is a `str` enum (`positive` | `neutral` | `negative`) validated at the model level.
 `importance_score` is a `float` with `ge=0.0, le=1.0` constraints — the LLM cannot return a value outside this range.
-
-# news_intelligence_agent
